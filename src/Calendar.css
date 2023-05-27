@@ -1,0 +1,43 @@
+.calendar-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .calendar-inner-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .calendar-display {
+    font-size: 28px;
+    border: 1px solid white;
+  }
+  
+  .month-header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .calendar-container-child {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  .selected {
+    color: orange;
+  }
+  
+  .holiday {
+    color: green;
+  }
+  
